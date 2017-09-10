@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,400');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body{
+  font-family: "Quicksand", sans serif;
+  font-weight: lighter;
+background: grey;
+padding: 0px, 0px;
+margin-top: 0;
+margin-left: 0;
+overflow: auto;
+}
+img{
+  width: 81%;
+}
+iframe{
+  width: 100%;
+  height: 100vh;
+}
+div.sidebar{
+  display: inline-block;
+  background-color: #151515;
+  float: left;
+  position: fixed;
+  width: 15%;
+  min-width: 200px;
+  height: 100%;
+  color: white;
+  font-size: 30px;
+
+}
+
+div.linkbox{
+  padding-bottom: 10px;
+}
+
+
+div.sidelink:hover{
+  background-color: #202020;
+}
+
+div.sidelink{
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div.logospace{
+  height: 100%;
+  background-color: grey;
+}
+
+div.about{
+  color: white;
+  padding: 2%;
+  float: right;
+  background-color: #C8553D;
+}
+div.events{
+  padding: 2%;
+  color: white;
+  background-color: #F28F3B;
+}
+div.join{
+  color: white;
+  padding: 2%;
+  background-color: #EAC84B;
+}
+div.area{
+  display: inline-block;
+  float: right;
+  Width: 85%;
+  font-size: 24px;
+
+}
+
+table {
+  padding-right: 5px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.25);
+  }
+
+/* Dates */
+.agenda .agenda-date {
+   width: 170px;
+}
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px;
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em;
+}
+
+
+/* Times */
+.agenda .agenda-time {
+  width: 140px;
+
+}
+
+
+/* Events */
+.agenda .agenda-events {
+ }
+.agenda .agenda-events .agenda-event {
+}
+
+@media (max-width: 767px) {
+
+}
