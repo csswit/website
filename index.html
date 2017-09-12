@@ -1,129 +1,118 @@
 <!DOCTYPE html>
   <html>
-  <head>
-    <title> Wentworth CSS </title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="code.js"></script>
-  </head>
-  <body>
-    <div class="sidebar" >
+    <head>
+      <title> Wentworth CSS </title>
+      <link rel="icon" type="image/png" href="icon.png"/>
+      <link rel="stylesheet" href="styles.css">
+      <script type="text/javascript" src="code.js"></script>
+    </head>
 
-    <div class="linkbox">
-      <div class="sidelink" onclick="scrollToItem(about)">About</div>
-      <div class="sidelink" onclick="scrollToItem(events)">Events</div>
-      <div class="sidelink" onclick="scrollToItem(join)">Join</div>
-      <div class="sociallinks">
-        <a class="social" href="https://www.facebook.com/CSSatWIT"><i class="fa fa-facebook" style="font-size:36px"></i></a>
-        <a class="social" href="https://twitter.com/wentworthcss"><i class="fa fa-twitter" style="font-size:36px"></i></a>
-        <a class="social" href="https://wentworthcss.slack.com/signup"><i class="fa fa-slack" style="font-size:36px"></i></a>
-      </div>
-    </div>
-  </div>
+    <body>
+      <div class="sidebar" >
+        <div class="linkbox">
+          <div class="sidelink" onclick="scrollToItem(about)">About</div>
+          <div class="sidelink" onclick="scrollToItem(events)">Events</div>
+          <div class="sidelink" onclick="scrollToItem(join)">Join</div>
 
-  <div class="area">
-
-    <div class="logospace">
-      <img src="logo.png"/>
-    </div>
-
-    <div class="about" id="about">
-      <h1>About us:</h1>
-      <p>
-        Have you ever had a programming project you wanted to attempt, but never knew where to start? Come join the CSS club for our weekly meeting.
-        Here we discuss projects we want to try, demo projects we have already completed, have programming workshops and even guest speakers!
-      Wentworth Computer Science Society (CSS@WIT) was founded as a branch of Association for Computing Machinery (ACM).
-      Whether you're a master hacker or a script kitty, all skill levels are welcome in the hope of enhancing our skills to make ourselves more effective programmers.
-
-      We also organize and execute wentworth's offical hackathon, <a href="http://hackwit.us/"> Hack WIT us.</a>
-      </p>
-    </div>
-
-    <div class="events" id="events">
-      <h1>Upcoming events:</h1>
-          <div class="container">
-        <div class="agenda">
-            <div class="table-responsive">
-                <table class="table table-condensed table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Date</th>
-                            <th>Time</th>
-                            <th>Event</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- Single event in a single day -->
-
-
-                        <!-- Multiple events in a single day (note the rowspan) -->
-                        <tr>
-                            <td class="agenda-date" class="active" rowspan="1">
-                                <div class="dayofmonth">12</div>
-                                <div class="dayofweek">Tuesday</div>
-                                <div class="shortdate text-muted">September</div>
-                            </td>
-                            <td class="agenda-time">
-                                5:00 - 7:00 PM
-                            </td>
-                            <td class="agenda-events">
-                                <div class="agenda-event">
-                                    Introduction Meeting
-                                </div>
-                            </td>
-
-                        </tr>
-
-                        <tr>
-                            <td class="agenda-date" class="active" rowspan="1">
-                                <div class="dayofmonth">19</div>
-                                <div class="dayofweek">Tuesday</div>
-                                <div class="shortdate text-muted">September</div>
-                            </td>
-                            <td class="agenda-time">
-                                5:00 - 7:00 PM
-                            </td>
-                            <td class="agenda-events">
-                                <div class="agenda-event">
-                                    Git Workshop
-                                </div>
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td class="agenda-date" class="active" rowspan="1">
-                                <div class="dayofmonth">26</div>
-                                <div class="dayofweek">Tuesday</div>
-                                <div class="shortdate text-muted">September</div>
-                            </td>
-                            <td class="agenda-time">
-                                5:00 - 7:00 PM
-                            </td>
-                            <td class="agenda-events">
-                                <div class="agenda-event">
-                                    React Workshop
-                                </div>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+          <div class="sociallinks">
+            <a class="social" href="https://www.facebook.com/CSSatWIT"><i class="fa fa-facebook" style="font-size:36px"></i></a>
+            <a class="social" href="https://twitter.com/wentworthcss"><i class="fa fa-twitter" style="font-size:36px"></i></a>
+            <a class="social" href="https://wentworthcss.slack.com/signup"><i class="fa fa-slack" style="font-size:36px"></i></a>
+          </div>
         </div>
       </div>
-    </div>
 
+    <div class="area">
+      <div class="logospace">
+        <img src="logo.png"/>
+      </div>
 
-    <div class="join" id="join">
-      <h1>Join:</h1>
-      <p>
-        We're always excited to have new members join our club! To come join the fun, simply fill out the form below.
-        We'll shoot you an email the next time something cool is about to happen. If you can't make it to a meeting,
-        you can join our slack channel to share your ideas <a href="https://wentworthcss.slack.com/signup">Here.</a>
-      </p>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhT5qTAEvxeHyZgQ-6VEf0OwPbGZuFWp_MEGvHV9uiI-AtEw/viewform"></iframe>
+      <div class="about" id="about">
+        <h1>About us:</h1>
+        <p>
+          Have you ever had a programming project you wanted to attempt, but never knew where to start? Come join the CSS club for our weekly meeting.
+          Here we discuss projects we want to try, demo projects we have already completed, have programming workshops and even guest speakers!
+        Wentworth Computer Science Society (CSS@WIT) was founded as a branch of Association for Computing Machinery (ACM).
+        Whether you're a master hacker or a script kitty, all skill levels are welcome in the hope of enhancing our skills to make ourselves more effective programmers.
+
+        We also organize and execute wentworth's offical hackathon, <a href="http://hackwit.us/"> Hack WIT us.</a>
+        </p>
+      </div>
+
+      <div class="events" id="events">
+        <h1>Upcoming events:</h1>
+        <div class="container">
+          <div class="agenda">
+              <div class="table-responsive">
+                  <table class="table table-condensed table-bordered">
+                      <thead>
+                          <tr>
+                              <th>Date</th>
+                              <th>Time</th>
+                              <th>Event</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td class="agenda-date" class="active" rowspan="1">
+                                  <div class="dayofmonth">12</div>
+                                  <div class="dayofweek">Tuesday</div>
+                                  <div class="shortdate text-muted">September</div>
+                              </td>
+                              <td class="agenda-time">
+                                  5:00 - 7:00 PM
+                              </td>
+                              <td class="agenda-events">
+                                  <div class="agenda-event"> Introduction Meeting </div>
+                              </td>
+                          </tr>
+
+                          <tr>
+                              <td class="agenda-date" class="active" rowspan="1">
+                                  <div class="dayofmonth">19</div>
+                                  <div class="dayofweek">Tuesday</div>
+                                  <div class="shortdate text-muted">September</div>
+                              </td>
+                              <td class="agenda-time">
+                                  5:00 - 7:00 PM
+                              </td>
+                              <td class="agenda-events">
+                                  <div class="agenda-event"> Git Workshop </div>
+                              </td>
+
+                          </tr>
+                          <tr>
+                              <td class="agenda-date" class="active" rowspan="1">
+                                  <div class="dayofmonth">26</div>
+                                  <div class="dayofweek">Tuesday</div>
+                                  <div class="shortdate text-muted">September</div>
+                              </td>
+                              <td class="agenda-time">
+                                  5:00 - 7:00 PM
+                              </td>
+                              <td class="agenda-events">
+                                  <div class="agenda-event">
+                                      React Workshop
+                                  </div>
+                              </td>
+                          </tr>
+
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="join" id="join">
+        <h1>Join:</h1>
+        <p>
+          We're always excited to have new members join our club! To come join the fun, simply fill out the form below.
+          We'll shoot you an email the next time something cool is about to happen. If you can't make it to a meeting,
+          you can join our slack channel to share your ideas <a href="https://wentworthcss.slack.com/signup">Here.</a>
+        </p>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhT5qTAEvxeHyZgQ-6VEf0OwPbGZuFWp_MEGvHV9uiI-AtEw/viewform"></iframe>
+      </div>
     </div>
-  </div>
-    </body>
-  </html>
+  </body>
+</html>
